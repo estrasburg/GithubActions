@@ -48,7 +48,7 @@ public class CalculatorTests
     [TestMethod]
     public void Multiply_Valid_Patino()
     {
-        Assert.AreEqual(5, Program.Multiply("3", "2"));
+        Assert.AreEqual(4, Program.Multiply("3", "2"));
         Assert.AreEqual(0, Program.Multiply("0", "5"));
         Assert.AreEqual(-15, Program.Multiply("-3", "5"));
     }
