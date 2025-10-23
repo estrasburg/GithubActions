@@ -39,7 +39,7 @@ public class Addition
 	}
 
 	[TestMethod]
-	public void Add_Invalid_Patino()
+	public void Subtract_Invalid_Patino()
 	{
 		Assert.ThrowsException<FormatException>(() => Program.Subtract("1", "a"));
 		Assert.ThrowsException<FormatException>(() => Program.Subtract("a", "1"));
@@ -47,7 +47,7 @@ public class Addition
 	}
 
 	[TestMethod]
-	public void Add_Null_Patino()
+	public void Subtract_Null_Patino()
 	{
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Subtract("1", null));
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Subtract(null, "1"));
