@@ -60,7 +60,7 @@ public class Addition
 		[TestMethod]
 	public void Multiply_Valid_Patino()
 	{
-		Assert.AreEqual(3, Program.Multiply("1", "2"));
+		Assert.AreEqual(2, Program.Multiply("1", "2"));
 		Assert.AreEqual(6, Program.Multiply("3", "2"));
 		Assert.AreEqual(45, Program.Multiply("5", "7"));
 	}
@@ -89,7 +89,7 @@ public class Addition
 	{
 		Assert.AreEqual(1, Program.Divide("2", "2"));
 		Assert.AreEqual(1.5, Program.Divide("3", "2"));
-		Assert.AreEqual(12, Program.Divide("5", "5"));
+		Assert.AreEqual(1, Program.Divide("5", "5"));
 	}
 
 	[TestMethod]
